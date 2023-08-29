@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+</head>
+<body>
+    <header> <!--- Inicio Header --->
+        <nav>
+            <picture>
+                <a href="./index.html"><img src="./img/branding/logo_light_horizontal.svg" alt="Isologotipo de la Marca Funkshop"></a>
+            </picture>
+            <ul>
+                <li><a href="./pages/shop.html">SHOP</a></li>
+                <li><a href="./pages/contact.html">CONTACTO</a></li>
+                <li><a href="./pages/login.html">LOGIN</a></li>
+                <li><a href="./pages/cart.html"><img src="./img/icons/cart-icon.svg" alt="Icono de Carrito"></a></li>
+            </ul>
+        </nav>
+    </header> <!--- Fin Header --->
+    
+    <main class="main-container">
+        <aside class="aside shop-filters filters">
+          <div class="filters search">
+            <label class="filters title" for="search">BUSCAR</label>
+            <input type="text" name="search" id="search" placeholder=" ítem o categoría">
+          </div>
+          <div class="filers order">
+            <label class="filters title" for="orderby">ORDENAR POR</label>
+            <select name="orderby" id="orderby">
+              <option value="az">A-Z</option>
+              <option value="za">Z-A</option>
+              <option value="asc">Mayor precio</option>
+              <option value="dec">Menor precio</option>
+            </select>
+          </div>
+          <div class="filters price"><span class="filters title">PRECIO</span>
+            <div>
+              <label for="min">MIN</label>
+              <input type="text" name="min" id="min" placeholder=" 0">
+              <label for="max"> - MAX</label>
+              <input type="text" name="max" id="max" placeholder=" 0">
+            </div>
+          </div>
+          <div class="filters checks">
+            <span class="filters title" for="title">FILTRAR</span>
+            <div>
+              <input type="checkbox" name="filter" id="news" value="news">
+              <label for>NUEVOS</label>
+            </div>
+            <div>
+              <input type="checkbox" name="filter" id="offers" value="offers">
+              <label for>OFERTAS</label>
+            </div>
+            <div>
+              <input type="checkbox" name="filter" id="specials" value="specials">
+              <label for>EDICION ESPECIAL</label>
+            </div>
+            <div>
+              <input type="checkbox" name="filter" id="favs" value="favs">
+              <label for>FAVORITOS</label>
+            </div>
+          </div>
+        </aside>
+        <section class="cards">
+          <ul class="shop-items">
+            <li cass="shop-item">
+              <article class="card-item">
+                <span class="card-item tag">NUEVO</span>
+                <div class="card-item img"><img src="./img/star-wars/trooper-1.webp" alt="trooper" /></div>
+                <div class="car-item content">
+                  <p class="car-item licence">STAR WARS </p>
+                  <h4 class="car-item name">STORMTROOPER LIGHTSABER</h4>
+                  <p class="car-item price">$ 1799,99</p>
+                  <p class="car-item promo">3 CUOTAS SIN INTERÉS</p>
+                </div>
+              </article>
+            </li>
+            <li cass="shop-item">
+              <article class="card-item">
+                <span class="card-item tag">NUEVO</span>
+                <div class="card-item img"><img src="./img/pokemon/pidgeotto-1.webp" alt="trooper" /></div>
+                <div class="car-item content">
+                  <p class="car-item licence">POKEMON </p>
+                  <h4 class="car-item name">PIDGEOTTO </h4>
+                  <p class="car-item price">$ 1799,99</p>
+                  <p class="car-item promo">3 CUOTAS SIN INTERÉS</p>
+                </div>
+              </article>
+            </li>
+            <li cass="shop-item">
+              <article class="card-item">
+                <span class="card-item tag">NUEVO</span>
+                <div class="card-item img"><img src="./img/harry-potter/luna-1.webp" alt="trooper" /></div>
+                <div class="car-item content">
+                  <p class="car-item licence">HARRY POTTER </p>
+                  <h4 class="car-item name">LUNA LOVEGOOD LION MASK </h4>
+                  <p class="car-item price">$ 1799,99</p>
+                  <p class="car-item promo">3 CUOTAS SIN INTERÉS</p>
+                </div>
+              </article>
+            </li>
+            <li cass="shop-item">
+              <article class="card-item">
+                <span class="card-item tag">NUEVO</span>
+                <div class="card-item img"><img src="./img/star-wars/trooper-1.webp" alt="trooper" /></div>
+                <div class="car-item content">
+                  <p class="car-item licence">STAR WARS</p>
+                  <h4 class="car-item name">STORMTROOPER LIGHTSABER</h4>
+                  <p class="car-item price">$ 1799,99</p>
+                  <p class="car-item promo">3 CUOTAS SIN INTERÉS</p>
+                </div>
+              </article>
+            </li>
+            <li cass="shop-item">
+              <article class="card-item">
+                <span class="card-item tag">NUEVO</span>
+                <div class="card-item img"><img src="./img/pokemon/pidgeotto-1.webp" alt="trooper" /></div>
+                <div class="car-item content">
+                  <p class="car-item licence">POKEMON </p>
+                  <h4 class="car-item name">PIDGEOTTO </h4>
+                  <p class="car-item price">$ 1799,99</p>
+                  <p class="car-item promo">3 CUOTAS SIN INTERÉS</p>
+                </div>
+              </article>
+            </li>
+            <li cass="shop-item">
+              <article class="card-item">
+                <span class="card-item tag">NUEVO</span>
+                <div class="card-item img"><img src="./img/harry-potter/luna-1.webp" alt="trooper" /></div>
+                <div class="car-item content">
+                  <p class="car-item licence">HARRY POTTER </p>
+                  <h4 class="car-item name">LUNA LOVEGOOD LION MASK </h4>
+                  <p class="car-item price">$ 1799,99</p>
+                  <p class="car-item promo">3 CUOTAS SIN INTERÉS</p>
+                </div>
+              </article>
+            </li>
+            <li cass="shop-item">
+              <article class="card-item">
+                <span class="card-item tag">NUEVO</span>
+                <div class="card-item img"><img src="./img/star-wars/trooper-1.webp" alt="trooper" /></div>
+                <div class="car-item content">
+                  <p class="car-item licence">STAR WARS</p>
+                  <h4 class="car-item name">STORMTROOPER LIGHTSABER</h4>
+                  <p class="car-item price">$ 1799,99</p>
+                  <p class="car-item promo">3 CUOTAS SIN INTERÉS</p>
+                </div>
+              </article>
+            </li>
+            <li cass="shop-item">
+              <article class="card-item">
+                <span class="card-item tag">NUEVO</span>
+                <div class="card-item img"><img src="./img/pokemon/pidgeotto-1.webp" alt="trooper" /></div>
+                <div class="car-item content">
+                  <p class="car-item licence">POKEMON </p>
+                  <h4 class="car-item name">PIDGEOTTO </h4>
+                  <p class="car-item price">$ 1799,99</p>
+                  <p class="car-item promo">3 CUOTAS SIN INTERÉS</p>
+                </div>
+              </article>
+            </li>
+            <li cass="shop-item">
+              <article class="card-item">
+                <span class="card-item tag">NUEVO</span>
+                <div class="card-item img"><img src="./img/harry-potter/luna-1.webp" alt="trooper" /></div>
+                <div class="car-item content">
+                  <p class="car-item licence">HARRY POTTER </p>
+                  <h4 class="car-item name">LUNA LOVEGOOD LION MASK </h4>
+                  <p class="car-item price">$ 1799,99</p>
+                  <p class="car-item promo">3 CUOTAS SIN INTERÉS</p>
+                </div>
+              </article>
+            </li>
+            
+            
+          </ul>
+          <div class="pagination">
+          <a class="pagination-link" href="#"><</a>
+          <a class="pagination-link pagination-link-selected" href="#">1</a>
+          <a class="pagination-link" href="#">2</a>
+          <a class="pagination-link" href="#">3</a>
+          <a class="pagination-link" href="#">4</a>
+          <a class="pagination-link" href="#">5</a>
+          <a class="pagination-link" href="#">></a>
+          </div>
+        </section>
+      </main>
+      <footer> <!--- Inicio Footer --->
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="./pages/shop.html">SHOP</a></li>
+                    <li><a href="./pages/login.html">INGRESAR</a></li>
+                    <li><a href="./pages/contact.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <picture>
+                <img src="./img/branding/isotype.svg" alt="Isologotipo de la Marca Funkoshop">
+            </picture>
+        </section>
+        <p>All rights reserved 2023 - Funkoshop &copy;</p>
+    </footer> <!--- Fin Footer --->
+    
+</body>
+</html>
