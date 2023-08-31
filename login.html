@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Funkoshop</title>
+    <link rel="stylesheet" href="">
+    <meta name="description" content="Login Page">
+</head>
+
+<body>
+<!--- Inicio Header --->
+    <header>
+        <nav>
+            <picture>
+                <a href="./index.html"><img src="./img/branding/logo_light_horizontal.svg"
+                        alt="Isologotipo de la Marca Funkshop" /></a>
+            </picture>
+            <ul>
+                <li>
+                    <a href="#">SHOP</a></li>
+                <li>
+                    <a href="#">CONTACTO</a></li>
+                <li>
+                    <a href="#">LOGIN</a></li>
+                <li>
+                    <a href="#"><img src="./img/icons/cart-icon.svg" alt="Icono de Carrito"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- INICIO DEL MAIN -->
+
+    <main id="login" class="container">
+        <h2 class="login_text">INGRESAR A MI CUENTA</h2>
+        <form class="login_form" action="" method="post">
+            <div class="form_box">
+                <label class="form_label" for="email">Email:</label>
+                <input class="form_input" type="text" name="email" id="email" placeholder="johndoe@email.com" />
+            </div>
+            <div class="form_box">
+                <label class="form_label" for="password">Contraseña:</label>
+                <input class="form_input" type="password" name="password" id="password"
+                    placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" />
+            </div>
+            <div class="form_submission">
+                <input class="form_btn" type="submit" value="Ingresar" />
+                <div class="form_remember">
+                    <input type="checkbox" name="remember" id="checkbox_remember" />
+                    <label for="">Recordarme</label>
+                </div>
+            </div>
+            <a class="form_link" href="">Olvidé mi contraseña</a>
+        </form>
+    </main>
+
+<!--- Inicio Footer --->
+    <footer>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="./pages/shop.html">SHOP</a></li>
+                    <li><a href="./pages/login.html">INGRESAR</a></li>
+                    <li><a href="./pages/contact.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <picture>
+                <img src="./img/branding/isotype.svg" alt="Isologotipo de la Marca Funkoshop" />
+            </picture>
+        </section>
+        <p>All rights reserved 2023 - Funkoshop &copy;</p>
+    </footer>
+</body>
+</html>
