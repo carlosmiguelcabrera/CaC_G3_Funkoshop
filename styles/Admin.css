@@ -1,0 +1,55 @@
+
+img{ 
+    width: 372px;
+    height: 65.19px;
+}
+header{
+    background-color: #30343F;
+}
+
+input{
+    font-size width: 337.87px;
+    font-size height: 24px;
+    width: 528.76px;
+    height: 44.28;
+}
+button{
+    width: 42px;
+    height: 42px;
+}
+ul{
+    display: inline-block; 
+
+}
+footer{
+    color: #FFFFFF;
+    font-size: 410*23px;
+    background-color: #30343F;
+    top: 1225.23px;
+}
+
+li{
+color: #FFFFFF;
+font-size: 134*122px;
+}
+.uno{
+    width: 143px;
+    height: 116.19px;
+}
+
+
+
+
+
+
+
+
+
+
+/* WIDTH =  ANCHO
+HEIGHT = ALTO */
+
+/* right  - derecha
+left - izquierda
+top  - arriba
+bottom - abajo */
