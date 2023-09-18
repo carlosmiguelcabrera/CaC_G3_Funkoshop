@@ -16,7 +16,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body> 
-  <header class="header">
+  <header>
   <!--inicio cabecera--> 
   <nav class="navbar conteiner">
     <picture class="navbar_logo">
@@ -32,7 +32,7 @@
   <!--fin cabecera-->
   </header>
 <main class="Admin">
-  <nav class="admin_search">
+  <div class="admin_search">
   <form action="">
     <button class="admin_icon" type="submit">
       <iconify-icon icon="material-symbols:search" width="30.06" height="30.76">
@@ -40,22 +40,21 @@
     </button> 
     <input class="admin_search-bar" type="search" name="busqueda" placeholder="Código, nombre o categoría">     
   </form>
-</nav>
-<nav class="admin_header">
+  </div>
+<div class="admin_header">
     <h1 class="admin_header_titulo">LISTADO DE PRODUCTOS</h1>
     <span class="admin_header-span">AGREGAR
     <iconify-icon icon="ph:plus-fill" style="color: #f33;" width="36" height="39"></iconify-icon>
   </span>
-  </nav> 
-<table class="admin-table">
-  <nav class="admin-table-header">
-  <tr>
-    <th >id</th>
+  </div> 
+<div class="contenedor">
+  <table class="admin-table">
+    <tr>
+    <th>ID</th>
     <th>Código</th>
     <th>Nombre del producto</th>
     <th>Categoría</th>
   </tr>
-</nav>
   <tr>
     <td>1</td>
     <td>STW001001</td>
@@ -161,6 +160,7 @@
   <td><iconify-icon icon="bxs:trash" style="color: #f33;" width="22.67" height="25.5"></iconify-icon></td>
 </tr>
 </table>
+</div>
 </main>
 <footer class="footer">
   <!---footer inicio--->
