@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 :root {
   /* Palette */
@@ -6,7 +6,7 @@
   --prymary-900: rgba(255, 51, 51, 0.9);
   --primary-500: rgba(255, 51, 51, 0.5);
   --primary-300: rgba(255, 51, 51, 0.3);
-  
+
   --secondary-solid: #1d84b5;
   --secondary-900: rgba(29, 132, 181, 0.9);
   --secondary-500: rgba(29, 132, 181, 0.5);
@@ -20,20 +20,19 @@
   --dark-bg-solid: #30343f;
   --light-bg-solid: #fafaff;
   --light-font-solid: #ffffff;
-  
 
   /* Typography */
-  --base-font: 'Inter', sans-serif;
-  --alternative-font: 'Raleway', sans-serif;
-  
+  --base-font: "Inter", sans-serif;
+  --alternative-font: "Raleway", sans-serif;
+
   /* font size */
   --font-display: 4.6em;
---font-jumbo: 3.8em;
---font-xlarge: 3em;
---font-large: 2.4em;
---font-medium: 1.8em;
---font-small: 1.6em;
---font-xsmall: 1.2em;
+  --font-jumbo: 3.8em;
+  --font-xlarge: 3em;
+  --font-large: 2.4em;
+  --font-medium: 1.8em;
+  --font-small: 1.6em;
+  --font-xsmall: 1.2em;
 
   /* Spacing */
   --space-128: 12.8rem;
@@ -43,7 +42,7 @@
   --space-16: 1.6rem;
   --space-12: 1.2rem;
   --space-8: 0.8rem;
-  }
+}
 
 *,
 *::before,
@@ -60,20 +59,21 @@ html {
 }
 
 a {
-text-decoration: none;
-font-size: 2em;
-font-family: inherit;
-color: inherit;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: inherit;
+  color: inherit;
 }
 
-header, footer {
+header,
+footer {
   font-family: var(--alternative-font);
   color: var(--light-font-solid);
 }
 
-ul, ol {
+ul,
+ol {
   list-style-type: none;
-
 }
 
 p {
